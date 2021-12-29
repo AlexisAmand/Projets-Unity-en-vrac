@@ -57,6 +57,8 @@
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\WeakSpot.cs" />
+    <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\PlayerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

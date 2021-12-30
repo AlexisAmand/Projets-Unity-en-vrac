@@ -9,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping; /* à true si le joueur est en train de sauter */
     private bool isGrounded; /* à true si le joueur touche le sol */
 
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask collisionLayers;
+
     /* bornes d'une ligne sous le perso, elle detecte la collision du perso avec le sol */
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
@@ -19,32 +23,41 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
+    private float horizontalMovement;
+
     void Update()
     {
+        
+        
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
         }
-    }
-
-    void FixedUpdate()
-    {
-        /* Création d'une zone entre les deux bornes */
-        /* Si la zone touche qqch, isGrounded prend la valeur true */
-        /* Si la zone touche rien, isGrounded prend la valeur false */
-        isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
-
-        /* Calcul du mvnt : Quel direction et quelle vitesse ? */
-        float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-
-        /* on bouge le perso ! */
-        MovePlayer(horizontalMovement);
 
         Flip(rb.velocity.x);
 
         /* envoie de la vitesse à l'animator */
         float characterVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
+    }
+
+    void FixedUpdate()
+    {
+
+        /* Calcul du mvnt : Quel direction et quelle vitesse ? */
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+
+
+        /* Création d'une zone entre les deux bornes */
+        /* Si la zone touche qqch, isGrounded prend la valeur true */
+        /* Si la zone touche rien, isGrounded prend la valeur false */
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
+
+
+        /* on bouge le perso ! */
+        MovePlayer(horizontalMovement);
+
+
             
     }
 
@@ -78,6 +91,12 @@ public class PlayerMovement : MonoBehaviour
             SpriteRenderer.flipX = true;
             }
 
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
 
 }

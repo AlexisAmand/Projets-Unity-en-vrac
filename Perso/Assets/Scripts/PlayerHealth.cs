@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100; /* par defaut, on a 100 point de vie */
     public int currentHealth;  /* via actuelle */
 
+    public float invincibilityTimeAfterHit = 3f;
     public float invincibilityFlashDelay = 0.2f;
     public bool isInvincible = false; /* par defaut, le perso n'est pas invinsible */
 
@@ -58,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
 
     public IEnumerator HandleInvincibilityDelay()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(invincibilityTimeAfterHit);
         isInvincible = false;
     }
 }

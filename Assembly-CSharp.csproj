@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{19D0FF1F-E7D8-5A4F-890B-B69E3D377856}</ProjectGuid>
+    <ProjectGuid>{D7A53D93-51DF-0C50-EC16-20D8ECD608DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,13 +55,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\WeakSpot.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\FireDamage.cs" />
-    <Compile Include="Assets\Scripts\PickUpObject.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
+    <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
+    <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

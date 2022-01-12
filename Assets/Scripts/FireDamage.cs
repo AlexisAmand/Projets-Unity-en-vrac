@@ -3,7 +3,7 @@ using UnityEngine;
 public class FireDamage : MonoBehaviour
 {
 
-    public int damageIfFire = 5; /* Quantité de dégats si perso tombe dans le feu */
+    public int damageIfFire = 33; /* Quantité de dégats si perso tombe dans le feu */
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

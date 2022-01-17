@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637776600711479993
+      ticks: 637776600711470000
     m_Hash: 1196032275
   m_LockFileStatus:
     m_FilePath: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637776600711655186
+      ticks: 637776600711650000
     m_Hash: 1473711576
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -635,6 +635,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
         compatible:
         - 1.0.2
         - 1.0.6
@@ -662,6 +663,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework

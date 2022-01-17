@@ -12,8 +12,8 @@ Ma découverte d'Unity avec la chaine Youtube suivante :
 Tilesets utilisés :
 
 Ambiance marais
-[https://opengameart.org/content/swamp-2d-tileset-pixel-art]
-(https://opengameart.org/content/swamp-2d-tileset-pixel-art)
+[https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/?num=1&count=6&sq=swamp&pos=2]
+(https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/?num=1&count=6&sq=swamp&pos=2)
 
 Panneaux checkpoints
 [https://opengameart.org/content/platformer-art-deluxe]

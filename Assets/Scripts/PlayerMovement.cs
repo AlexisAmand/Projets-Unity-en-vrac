@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping; /* à true si le joueur est en train de sauter */
     private bool isGrounded; /* à true si le joueur touche le sol */
+    public bool isClimbing; /* à true si le joueur est en train de grimper */
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
 
     private float horizontalMovement;
+    private float verticalMovement;
 
     void Update()
     {      
@@ -42,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
         /* Calcul du mvnt : Quel direction et quelle vitesse ? */
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
         /* Création d'une zone entre les deux bornes */
         /* Si la zone touche qqch, isGrounded prend la valeur true */
@@ -49,26 +52,39 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
         /* on bouge le perso ! */
-        MovePlayer(horizontalMovement);     
+        MovePlayer(horizontalMovement, verticalMovement);     
 
     }
 
     /* Méthode qui bouge le perso */
 
-    void MovePlayer(float _horizontalMovement)
+    void MovePlayer(float _horizontalMovement, float _verticalMovement)
     {
-
-        /* vers quelle direction va le perso ? */
-        Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
-
-        /* on fait le mouvement du perso */
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
-
-        /* si le joueur à demander un saut, on ajoute une force au mvnt */
-        if(isJumping == true)
+        /* si le joueur n'est pas en train de grimper, il peut aller vers la droite, la gauche et sauter */
+        if (!isClimbing)
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false; /* Après le saut... on est plus en train de sauter */
+            /* vers quelle direction va le perso ? */
+            Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
+
+            /* on fait le mouvement du perso */
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+
+            /* si le joueur à demander un saut, on ajoute une force au mvnt */
+            if (isJumping)
+            {
+                rb.AddForce(new Vector2(0f, jumpForce));
+                isJumping = false; /* Après le saut... on est plus en train de sauter */
+            }
+        } else
+        {
+            // déplacement vertical
+
+            /* vers quelle direction va le perso ? */
+            Vector3 targetVelocity = new Vector2(rb.velocity.x, _verticalMovement);
+
+            /* on fait le mouvement du perso */
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+
         }
 
     }

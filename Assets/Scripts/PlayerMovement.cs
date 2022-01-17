@@ -4,10 +4,12 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public float moveSpeed;  /* vitesse de déplacement du Player */
+    public float climbSpeed;  /* vitesse de déplacement du Player */
     public float jumpForce;  
 
     private bool isJumping; /* à true si le joueur est en train de sauter */
     private bool isGrounded; /* à true si le joueur touche le sol */
+    [HideInInspector]
     public bool isClimbing; /* à true si le joueur est en train de grimper */
 
     public Transform groundCheck;
@@ -36,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
         /* envoie de la vitesse à l'animator */
         float characterVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
+        /* envoie à l'animator si le perso est en train de monter ou descendre */
+        animator.SetBool("isClimbing", isClimbing);
 
     }
 
@@ -44,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
         /* Calcul du mvnt : Quel direction et quelle vitesse ? */
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.deltaTime;
 
         /* Création d'une zone entre les deux bornes */
         /* Si la zone touche qqch, isGrounded prend la valeur true */
@@ -77,10 +81,9 @@ public class PlayerMovement : MonoBehaviour
             }
         } else
         {
-            // déplacement vertical
 
             /* vers quelle direction va le perso ? */
-            Vector3 targetVelocity = new Vector2(rb.velocity.x, _verticalMovement);
+            Vector3 targetVelocity = new Vector2(0, _verticalMovement);
 
             /* on fait le mouvement du perso */
             rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);

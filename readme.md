@@ -17,10 +17,13 @@ https://www.youtube.com/watch?v=nkgGyO9VG54
 **Ressources utilisées :**
 
 Tile sheet "ambiance marais"
-https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/?num=1&count=6&sq=swamp&pos=2
+https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/
 
-Panneaux checkpoints
+Tile sheet "Platformer art deluxe"
 https://opengameart.org/content/platformer-art-deluxe
 
 Sprite sheet pour la torche :
 https://opengameart.org/content/animated-pixel-torch
+
+Sprite sheet pour la chauve-souris :
+https://opengameart.org/content/bat-sprite

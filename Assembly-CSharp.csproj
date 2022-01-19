@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\WeakSpot.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\SpikeDamage.cs" />
@@ -68,7 +69,8 @@
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
     <Compile Include="Assets\Scripts\ladder.cs" />
-    <Compile Include="Assets\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\pieges.cs" />
+    <Compile Include="Assets\Scripts\picdegats.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

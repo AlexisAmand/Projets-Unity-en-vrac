@@ -68,9 +68,10 @@
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
+    <Compile Include="Assets\Scripts\picdegats.cs" />
     <Compile Include="Assets\Scripts\ladder.cs" />
     <Compile Include="Assets\Scripts\pieges.cs" />
-    <Compile Include="Assets\Scripts\picdegats.cs" />
+    <Compile Include="Assets\HealPowerUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

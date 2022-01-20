@@ -87,11 +87,33 @@ public class PlayerHealth : MonoBehaviour
 
         /* on bloque les mouvements du perso en bloquant le script PlayerMovement.cs */
         PlayerMovement.Instance.enabled = false;
+
         /* jouer l'animation d'élimination */
         PlayerMovement.Instance.animator.SetTrigger("Die");
+
         // empêcher les interactions avec les éléments de la scène
         PlayerMovement.Instance.rb.bodyType = RigidbodyType2D.Kinematic;
         PlayerMovement.Instance.playerCollider.enabled = false;
+
+        // on appelle la méthode qui affiche le menu
+        GameOverManager.Instance.OnPlayerDeath();
+
+    }
+
+    public void Respawn()
+    {
+
+        /* on restaure les mouvements du perso en bloquant le script PlayerMovement.cs */
+        PlayerMovement.Instance.enabled = true;
+
+       
+        PlayerMovement.Instance.animator.SetTrigger("Respawn");
+
+        // on restaure les interactions avec les éléments de la scène
+        PlayerMovement.Instance.rb.bodyType = RigidbodyType2D.Dynamic;
+        PlayerMovement.Instance.playerCollider.enabled = true;
+        currentHealth = maxHealth;
+        healthBar.SetHealth(currentHealth);
 
     }
 

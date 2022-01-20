@@ -106512,7 +106512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5472323854336739513, guid: 47e79a3445e9ec34dbe79bf27e862964, type: 3}
       propertyPath: CoinsGoal
-      value: 44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5472323854336739514, guid: 47e79a3445e9ec34dbe79bf27e862964, type: 3}
       propertyPath: m_SortingOrder

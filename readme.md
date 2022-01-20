@@ -36,3 +36,6 @@ https://opengameart.org/content/bat-sprite
 
 Bouteille/Potion :  
 https://opengameart.org/content/potion-bottles-1
+
+Ultimate 2D Backgrounds Pack :  
+https://assetstore.unity.com/packages/2d/environments/ultimate-2d-backgrounds-pack-188495

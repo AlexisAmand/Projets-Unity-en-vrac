@@ -39,7 +39,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.H))
         {
-            TakeDamage(20);
+            TakeDamage(60);
         }
 
     }
@@ -66,10 +66,32 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth -= damage; /* nouvelle valeur du nbre de pts de vie */
             healthBar.SetHealth(currentHealth); /* mise à jour du visuel */
+
+            // vérifier si le joueur est toujours vivant
+            if (currentHealth <= 0)
+            {
+                Die();
+                return;
+            }
+
             isInvincible = true;
             StartCoroutine(InvincibilityFlash()); /* coroutine : clignote car invinsible */
             StartCoroutine(HandleInvincibilityDelay()); /* coroutine : durée qu'il clignote car invinsible */
         }
+
+    }
+
+    public void Die()
+    {
+        Debug.Log("Le joueur est éliminé");
+
+        /* on bloque les mouvements du perso en bloquant le script PlayerMovement.cs */
+        PlayerMovement.Instance.enabled = false;
+        /* jouer l'animation d'élimination */
+        PlayerMovement.Instance.animator.SetTrigger("Die");
+        // empêcher les interactions avec les éléments de la scène
+        PlayerMovement.Instance.rb.bodyType = RigidbodyType2D.Kinematic;
+        PlayerMovement.Instance.playerCollider.enabled = false;
 
     }
 

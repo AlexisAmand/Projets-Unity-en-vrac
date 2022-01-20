@@ -19,11 +19,25 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb; /* fait référence au Rigidbody du Player */
     public Animator animator; /* fait référence à l'animator */
     public SpriteRenderer SpriteRenderer;
+    public CapsuleCollider2D playerCollider;
 
     private Vector3 velocity = Vector3.zero;
 
     private float horizontalMovement;
     private float verticalMovement;
+
+    public static PlayerMovement Instance;
+
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Debug.LogWarning("Il y a plus d'une instance de PlayerMovement dans la scène");
+            return;
+        }
+
+        Instance = this;
+    }
 
     void Update()
     {      

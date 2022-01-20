@@ -33,3 +33,6 @@ https://opengameart.org/content/animated-pixel-torch
 
 Sprite sheet pour la chauve-souris :  
 https://opengameart.org/content/bat-sprite
+
+Bouteille/Potion :  
+https://opengameart.org/content/potion-bottles-1

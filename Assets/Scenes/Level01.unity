@@ -106050,6 +106050,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6920768103166315974, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
   m_PrefabInstance: {fileID: 6920768104887012258}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &2058471013 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6920768103166315975, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
+  m_PrefabInstance: {fileID: 6920768104887012258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2061374169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5498245351939193885, guid: 282ce567057fd364383c8545569e3d25, type: 3}
@@ -106644,6 +106649,10 @@ PrefabInstance:
       propertyPath: climnSpeed
       value: 175
       objectReference: {fileID: 0}
+    - target: {fileID: 6920768103166315973, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
+      propertyPath: playerCollider
+      value: 
+      objectReference: {fileID: 2058471013}
     - target: {fileID: 6920768103166315974, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
       propertyPath: m_Name
       value: Player
@@ -106653,8 +106662,16 @@ PrefabInstance:
       value: 0.8147402
       objectReference: {fileID: 0}
     - target: {fileID: 6920768103166315975, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920768103166315975, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
       propertyPath: m_Offset.x
       value: 0.031987667
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920768103166315978, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6920768103166315979, guid: 408898d3e9d1ab64f98506f7fd301724, type: 3}
       propertyPath: m_RootOrder

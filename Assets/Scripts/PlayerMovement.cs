@@ -40,8 +40,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Update()
-    {      
-        
+    {
+
+        /* Calcul du mvnt : Quel direction et quelle vitesse ? */
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.fixedDeltaTime;
+        verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.fixedDeltaTime;
+
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
@@ -59,10 +63,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-
-        /* Calcul du mvnt : Quel direction et quelle vitesse ? */
-        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.deltaTime;
 
         /* Création d'une zone entre les deux bornes */
         /* Si la zone touche qqch, isGrounded prend la valeur true */

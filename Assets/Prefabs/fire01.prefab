@@ -94,10 +94,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 562070936023503459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adccfea3322650d4f89f93ddc4fc1b69, type: 3}
+  m_Script: {fileID: 11500000, guid: af39f2e08eb5f9b48960de821ad455fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageIfFire: 50
+  damage: 50
 --- !u!61 &562070936023503457
 BoxCollider2D:
   m_ObjectHideFlags: 0

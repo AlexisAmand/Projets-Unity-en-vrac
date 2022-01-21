@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\EnnemyPatrol.cs" />
+    <Compile Include="Assets\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\Scripts\WeakSpot.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\HealPowerUp.cs" />
+    <Compile Include="Assets\CurrentSceneManager.cs" />
     <Compile Include="Assets\Scripts\SpikeDamage.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
@@ -72,8 +74,7 @@
     <Compile Include="Assets\Scripts\picdegats.cs" />
     <Compile Include="Assets\Scripts\ladder.cs" />
     <Compile Include="Assets\Scripts\pieges.cs" />
-    <Compile Include="Assets\GameOverManager.cs" />
-    <Compile Include="Assets\CurrentSceneManager.cs" />
+    <Compile Include="Assets\HealPowerRandom.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

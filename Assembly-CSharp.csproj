@@ -60,21 +60,23 @@
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
+    <Compile Include="Assets\Scripts\HealPowerUp.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\WeakSpot.cs" />
+    <Compile Include="Assets\Scripts\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\CurrentSceneManager.cs" />
     <Compile Include="Assets\Scripts\SpikeDamage.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
     <Compile Include="Assets\Scripts\picdegats.cs" />
+    <Compile Include="Assets\Scripts\HealPowerRandom.cs" />
     <Compile Include="Assets\Scripts\ladder.cs" />
     <Compile Include="Assets\Scripts\pieges.cs" />
-    <Compile Include="Assets\Scripts\CurrentSceneManager.cs" />
-    <Compile Include="Assets\Scripts\GameOverManager.cs" />
-    <Compile Include="Assets\Scripts\HealPowerRandom.cs" />
-    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\Scripts\HealPowerUp.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

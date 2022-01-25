@@ -129,3 +129,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topCollider: {fileID: 3044157060064184431}
+  interactUI: {fileID: 0}

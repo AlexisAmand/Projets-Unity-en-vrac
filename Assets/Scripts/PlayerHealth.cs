@@ -93,6 +93,11 @@ public class PlayerHealth : MonoBehaviour
 
         // empêcher les interactions avec les éléments de la scène
         PlayerMovement.Instance.rb.bodyType = RigidbodyType2D.Kinematic;
+
+        // on met la velocity à 0 sinon la caméra bouge quand le joueur est éliminé.
+        PlayerMovement.Instance.rb.velocity = Vector3.zero;
+
+        // 
         PlayerMovement.Instance.playerCollider.enabled = false;
 
         // on appelle la méthode qui affiche le menu

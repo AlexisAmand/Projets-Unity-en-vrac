@@ -46,9 +46,11 @@ public class GameOverManager : MonoBehaviour
     // retour au menu principal
     public void MainMenuButton()
     {
-
+        /* Démarque les éléments comme étant à garder d'une scène à l'autre */
+        DontDestroyOnLoadScene.Instance.RemoveFromDontDestroyOnLoad();
+        /* Charge le Main Menu */
+        SceneManager.LoadScene("MainMenu");
     }
-
 
     // fermer le jeu
     public void QuityButton()

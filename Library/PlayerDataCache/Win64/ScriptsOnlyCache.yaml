@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -255,7 +256,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 19352}
+      Script: {instanceID: 27250}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157

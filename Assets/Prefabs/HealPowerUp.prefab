@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb8880fe3de6904ca3945609ccba163, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthpoint: 0
+  healthpoint: 15

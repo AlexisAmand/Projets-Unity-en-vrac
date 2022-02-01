@@ -56,30 +56,30 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DeathZone.cs" />
-    <Compile Include="Assets\Scripts\EnnemyPatrol.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\PickUpObject.cs" />
-    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
-    <Compile Include="Assets\Scripts\HealPowerUp.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\MovingPlatform.cs" />
-    <Compile Include="Assets\Scripts\WeakSpot.cs" />
-    <Compile Include="Assets\Scripts\GameOverManager.cs" />
-    <Compile Include="Assets\Scripts\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\CurrentSceneManager.cs" />
-    <Compile Include="Assets\Scripts\SpikeDamage.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint.cs" />
-    <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
-    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
-    <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
-    <Compile Include="Assets\Scripts\picdegats.cs" />
-    <Compile Include="Assets\Scripts\HealPowerRandom.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\ladder.cs" />
-    <Compile Include="Assets\Scripts\pieges.cs" />
+    <Compile Include="Assets\Scripts\Dangers\DeathZone.cs" />
+    <Compile Include="Assets\Scripts\Dangers\EnnemyPatrol.cs" />
+    <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Game\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Player\PickUpObject.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSpawn.cs" />
+    <Compile Include="Assets\Scripts\Potions\HealPowerUp.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Game\MovingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Dangers\WeakSpot.cs" />
+    <Compile Include="Assets\Scripts\Game\GameOverManager.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Game\CurrentSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Dangers\SpikeDamage.cs" />
+    <Compile Include="Assets\Scripts\Game\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\Game\LoadSpecificScene.cs" />
+    <Compile Include="Assets\Scripts\Game\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\DontDestroyOnLoadScene.cs" />
+    <Compile Include="Assets\Scripts\Dangers\picdegats.cs" />
+    <Compile Include="Assets\Scripts\Potions\HealPowerRandom.cs" />
+    <Compile Include="Assets\Scripts\Game\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Player\ladder.cs" />
+    <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

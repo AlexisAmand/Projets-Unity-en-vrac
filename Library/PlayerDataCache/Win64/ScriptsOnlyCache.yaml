@@ -20,7 +20,6 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - PlayerSpawn
     - SettingsMenu
-    - SpikeDamage
     - WeakSpot
     - ladder
     - picdegats
@@ -29,7 +28,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
+    Unity.2D.Sprite.Editor.dll:
+    - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -157,23 +157,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 4816}
     - Class: 114
-      Script: {instanceID: 5014}
+      Script: {instanceID: 5144}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5214}
     - Class: 114
-      Script: {instanceID: 5216}
+      Script: {instanceID: 5754}
     - Class: 114
-      Script: {instanceID: 5756}
+      Script: {instanceID: 5790}
     - Class: 114
-      Script: {instanceID: 5792}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 6116}
     - Class: 114
-      Script: {instanceID: 6118}
-    - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -246,17 +244,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 4816}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 5144}
     - Class: 114
-      Script: {instanceID: 5792}
+      Script: {instanceID: 5214}
     - Class: 114
-      Script: {instanceID: 6118}
+      Script: {instanceID: 5790}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 19352}
+      Script: {instanceID: 6116}
+    - Class: 114
+      Script: {instanceID: 6212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -288,23 +288,51 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
     - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 854}
     - Class: 114
+      Script: {instanceID: 1770}
+    - Class: 114
+      Script: {instanceID: 2322}
+    - Class: 114
       Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 4818}
+      Script: {instanceID: 3218}
+    - Class: 114
+      Script: {instanceID: 3322}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 5144}
+    - Class: 114
+      Script: {instanceID: 5790}
+    - Class: 114
+      Script: {instanceID: 5816}
+    - Class: 114
+      Script: {instanceID: 6212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -354,15 +382,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4652}
     - Class: 114
-      Script: {instanceID: 4880}
+      Script: {instanceID: 4878}
     - Class: 114
-      Script: {instanceID: 5094}
+      Script: {instanceID: 5092}
     - Class: 114
-      Script: {instanceID: 5614}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 6064}
+      Script: {instanceID: 6062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

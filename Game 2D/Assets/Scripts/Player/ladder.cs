@@ -34,7 +34,7 @@ public class ladder : MonoBehaviour
             topCollider.isTrigger = true; 
         }
     }
-
+        
     private void OnTriggerEnter2D(Collider2D collision)
     {
 

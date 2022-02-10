@@ -4,7 +4,7 @@ Ma découverte d'Unity !
 
 La liste des ressources que j'ai utilisées pour mes projets est disponible ici : 
 
-* [https://github.com/AlexisAmand/Unity/blob/master/readme.md](https://github.com/AlexisAmand/Unity/blob/master/readme.md)
+* [https://github.com/AlexisAmand/Unity/blob/master/ressources.md](https://github.com/AlexisAmand/Unity/blob/master/ressources.md)
 
 ### Game 2D
 

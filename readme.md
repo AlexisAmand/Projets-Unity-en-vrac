@@ -23,5 +23,8 @@ Un petit projet pour tester la création d'un effet de pluie en utilisant un sys
 * [https://www.youtube.com/watch?v=xkB6yzCBfgw](https://www.youtube.com/watch?v=xkB6yzCBfgw)
 * [https://www.youtube.com/watch?v=QP8zj-JQgmI](https://www.youtube.com/watch?v=QP8zj-JQgmI)
 
+### Tests pièges
+
+Simplement un essai de piège qui se déclenche quand le joueur s'approche.
 
 

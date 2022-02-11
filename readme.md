@@ -20,6 +20,10 @@ Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sab
 
 Un petit projet où la pluie se déclenche de façon aléatoire au démarrage du niveau.
 
+### Neiges et particules 2D
+
+Un petit projet pour tester la création d'un effet de neige en utilisant un système de particules. Pour l'instant, je ne sais pas trop comment gérer une couche de neige, j'ai donc joué avec la durée de vie des particules, un peu comme un flocon qui reste un peu sur le sol avant de fondre.
+
 ### Pluies et particules 2D
 
 Un petit projet pour tester la création d'un effet de pluie en utilisant un système de particules en utilisant un mix des tutos suivants :

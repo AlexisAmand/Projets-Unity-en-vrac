@@ -16,6 +16,10 @@ Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sab
 
 ![https://www.zupimages.net/up/22/03/g6qy.jpg](https://www.zupimages.net/up/22/03/g6qy.jpg)
 
+### Meteo Random
+
+Un petit projet où la pluie se déclenche de façon aléatoire au démarrage du niveau.
+
 ### Pluies et particules 2D
 
 Un petit projet pour tester la création d'un effet de pluie en utilisant un système de particules en utilisant un mix des tutos suivants :

@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/alexi/Mon Drive/Unity/Projets/Pluies et particules 2D
+C:/Users/alexi/Mon Drive/Unity/Pluies et particules 2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52615
-Successfully changed project path to: C:/Users/alexi/Mon Drive/Unity/Projets/Pluies et particules 2D
-C:/Users/alexi/Mon Drive/Unity/Projets/Pluies et particules 2D
+58128
+Successfully changed project path to: C:/Users/alexi/Mon Drive/Unity/Pluies et particules 2D
+C:/Users/alexi/Mon Drive/Unity/Pluies et particules 2D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/alexi/Mon Drive/Unity/Projets/Pluies et particules 2D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/alexi/Mon Drive/Unity/Pluies et particules 2D/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001303 seconds.
+Registered in 0.001804 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.531 seconds
+- Completed reload, in  0.606 seconds
 Domain Reload Profiling:
-	ReloadAssembly (531ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (159ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (180ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004045 seconds.
+Registered in 0.004818 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  1.170 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.0 MB.
 System memory in use after: 95.9 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2624.
-Total: 2.686800 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.338100 ms  DeleteObjects: 0.116000 ms)
+Total: 3.021000 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.592800 ms  DeleteObjects: 0.132900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,9 +132,410 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.004276 seconds 
-  Import took 0.008112 seconds .
+  path: Assets/Materials/RainMaterial.mat
+  artifactKey: Guid(d0a68f38532f7dd4cb13ded2f132f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RainMaterial.mat using Guid(d0a68f38532f7dd4cb13ded2f132f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946da08b5614a0c7e5ae815d7c18bc17') in 0.111126 seconds 
+  Import took 0.115544 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 143.791008 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/full illustration.png
+  artifactKey: Guid(4be790a94a33ada4f8488711d5cd157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/full illustration.png using Guid(4be790a94a33ada4f8488711d5cd157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c08071d60d5af9aa256725979d212b') in 0.082577 seconds 
+  Import took 0.087018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/full illustration.png
+  artifactKey: Guid(63de18c8ac27c6f49afa2fc4b3385310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/full illustration.png using Guid(63de18c8ac27c6f49afa2fc4b3385310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d3499f25685340af8b0036ccd3a41') in 0.026524 seconds 
+  Import took 0.032218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 5.png
+  artifactKey: Guid(3bff9cf3609965546a294b8df27f2532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 5.png using Guid(3bff9cf3609965546a294b8df27f2532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181deaa0be722bb0d097c074a216498') in 0.058459 seconds 
+  Import took 0.063046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 2.png
+  artifactKey: Guid(d6370f40ea31fa8448fa09144cc6b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 2.png using Guid(d6370f40ea31fa8448fa09144cc6b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0731fe5236626ce7965d88606d37cb86') in 0.023605 seconds 
+  Import took 0.027681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 3.png
+  artifactKey: Guid(63606e0fdb2e0e74785b7386c0c648f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 3.png using Guid(63606e0fdb2e0e74785b7386c0c648f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a0766bd915592ca85a0d7e697c17fa') in 0.025270 seconds 
+  Import took 0.028760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 1.png
+  artifactKey: Guid(b2b81148c1cb4a14cbd55f653e0e90f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 1.png using Guid(b2b81148c1cb4a14cbd55f653e0e90f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be44fbd97536fa01b1b4174baf31a44') in 0.030776 seconds 
+  Import took 0.034277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 4.png
+  artifactKey: Guid(d34f37dd9434a2f429adb7c192ce5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 4.png using Guid(d34f37dd9434a2f429adb7c192ce5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751837b0443f5a03e476b4cc87b9e6f6') in 0.030310 seconds 
+  Import took 0.034601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 3.png
+  artifactKey: Guid(40ec2998ebdabf542803f3633257807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 3.png using Guid(40ec2998ebdabf542803f3633257807e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f54ea341dfda0509a1c97e90aed87c') in 0.024092 seconds 
+  Import took 0.027963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 4.png
+  artifactKey: Guid(342ce16a0b38f594f9bde6943289df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 4.png using Guid(342ce16a0b38f594f9bde6943289df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c31849e55f7fcf7ea193491bad04b2') in 0.024183 seconds 
+  Import took 0.027838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/illustration 2.psd
+  artifactKey: Guid(ace82b22047c5de4ea1089d53288a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/illustration 2.psd using Guid(ace82b22047c5de4ea1089d53288a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eafe533289c05fbfb77aba24507ac0b') in 0.045111 seconds 
+  Import took 0.049162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/illustration 4.psd
+  artifactKey: Guid(e402c6f1ea6b47f4ca7c34f00555e71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/illustration 4.psd using Guid(e402c6f1ea6b47f4ca7c34f00555e71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2260099187fb3d1b9992850995b8ab') in 0.023602 seconds 
+  Import took 0.026880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/Illustration 7.psd
+  artifactKey: Guid(b56fd2f988ff67a47bbfece6ca7285b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/Illustration 7.psd using Guid(b56fd2f988ff67a47bbfece6ca7285b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fbac07e17a3a0ba419cade20a2a9aa') in 0.022753 seconds 
+  Import took 0.027207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 1.png
+  artifactKey: Guid(78b88a8156b7c4e49a62f0a4c27ef3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 1.png using Guid(78b88a8156b7c4e49a62f0a4c27ef3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1035800b625fd9146485a3c07293ad6') in 0.024456 seconds 
+  Import took 0.028114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 2.png
+  artifactKey: Guid(a137544edaddc3d46a2460e0aa19a2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 2.png using Guid(a137544edaddc3d46a2460e0aa19a2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6843229375b8294f5baf5fb3bfb97771') in 0.025853 seconds 
+  Import took 0.029406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 3.png
+  artifactKey: Guid(302626b269be188438f7e40e744d71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 3.png using Guid(302626b269be188438f7e40e744d71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caaef6917c9677bc375d93dd9f4db5a') in 0.021680 seconds 
+  Import took 0.025417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/full illustration.png
+  artifactKey: Guid(674cd13d47f71624286fdf8ce71865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/full illustration.png using Guid(674cd13d47f71624286fdf8ce71865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65540d11093a65a54a572c2b57e1f36f') in 0.024465 seconds 
+  Import took 0.027612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 1 .png
+  artifactKey: Guid(8d5eb84ede8435442865c8ab0ae2ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 1 .png using Guid(8d5eb84ede8435442865c8ab0ae2ce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc0f10bfce0e7b69a787c4635034de9') in 0.026364 seconds 
+  Import took 0.031008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 5.png
+  artifactKey: Guid(659ddc49c24c047458768db2f9834ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 5.png using Guid(659ddc49c24c047458768db2f9834ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205c9afcc31e5615b43824f8044e498') in 0.023795 seconds 
+  Import took 0.027366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 3.png
+  artifactKey: Guid(9e8b1736930c10147a201cdf39e4efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 3.png using Guid(9e8b1736930c10147a201cdf39e4efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e76b75fbc153199e1aa4879ca0b94a') in 0.023045 seconds 
+  Import took 0.026174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/Illustration 6.psd
+  artifactKey: Guid(f6549e96d6675c54bbf8f3834434b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/Illustration 6.psd using Guid(f6549e96d6675c54bbf8f3834434b17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e327e4c104fb18fcad1f6e159f00adf') in 0.020389 seconds 
+  Import took 0.023912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 4.png
+  artifactKey: Guid(7bbb36d54fc77be41966b5c15cb0d7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 4.png using Guid(7bbb36d54fc77be41966b5c15cb0d7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7996bfbc4bc3c3a4b449f40454c035') in 0.021980 seconds 
+  Import took 0.025759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 6.png
+  artifactKey: Guid(1628c1e3b735021439cd59ddd301368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 6.png using Guid(1628c1e3b735021439cd59ddd301368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ab2bb904437a912f25c5b97fcdf8a9') in 0.023816 seconds 
+  Import took 0.027095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 1 .png
+  artifactKey: Guid(225af15eb0e1e8140b8c91887d69590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 2/layer 1 .png using Guid(225af15eb0e1e8140b8c91887d69590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba08a442ab20fba21450814418041e') in 0.022965 seconds 
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 5.png
+  artifactKey: Guid(29e2fded480737a48b4857fd4da3312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 5.png using Guid(29e2fded480737a48b4857fd4da3312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05807704d0e117f50b15397b36ab3b8') in 0.022142 seconds 
+  Import took 0.025746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/Illustration 5.psd
+  artifactKey: Guid(3464b47ed6267ee489550d5291f341c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/Illustration 5.psd using Guid(3464b47ed6267ee489550d5291f341c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bd778f62f26da029d988239f8d0b64') in 0.025295 seconds 
+  Import took 0.028856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 2.png
+  artifactKey: Guid(4ffe28a29399ae940b7d9fba9b59c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 2.png using Guid(4ffe28a29399ae940b7d9fba9b59c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cc787b4fc466b8cc6c6155741f9482') in 0.022354 seconds 
+  Import took 0.025730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/house smoke layer 4.png
+  artifactKey: Guid(b9cb101a80e78f54e965b9b5ef469b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/house smoke layer 4.png using Guid(b9cb101a80e78f54e965b9b5ef469b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbb05d109f23f77f704d1218d375fd3') in 0.024248 seconds 
+  Import took 0.027494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 5.png
+  artifactKey: Guid(4eabd097df3cc97458c2b2563e271363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 5.png using Guid(4eabd097df3cc97458c2b2563e271363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4bc5abea3ed48bbe041819aec22d75') in 0.023364 seconds 
+  Import took 0.027289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 2.png
+  artifactKey: Guid(2e8d673c7749f5645b045d8f738275c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 2.png using Guid(2e8d673c7749f5645b045d8f738275c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd9f29de35cf3cc5f333da4ef198de6') in 0.020490 seconds 
+  Import took 0.023937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 1 .png
+  artifactKey: Guid(c4cb7781d8a68824889b9f4f27f97266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 1 .png using Guid(c4cb7781d8a68824889b9f4f27f97266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e584e455f67154192d42cd5c64ab423') in 0.023722 seconds 
+  Import took 0.026998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/full illustration.png
+  artifactKey: Guid(1e5e5f4a07d220c45945c6a40976fc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/full illustration.png using Guid(1e5e5f4a07d220c45945c6a40976fc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df03c149aea7926362de8a532763dcb9') in 0.020870 seconds 
+  Import took 0.024477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/illustration 3.psd
+  artifactKey: Guid(5f76452afe247ba4894841ff68531c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/illustration 3.psd using Guid(5f76452afe247ba4894841ff68531c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c866a05537c99d0d05a38974fcb7b') in 0.021965 seconds 
+  Import took 0.025044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/full illustration.png
+  artifactKey: Guid(7330caaa7ee225443949a55ac4894de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/full illustration.png using Guid(7330caaa7ee225443949a55ac4894de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0aaf670239b2017447e266a64856b9') in 0.021448 seconds 
+  Import took 0.024812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 3.png
+  artifactKey: Guid(c7b56de72c95e6b4c84d50e1f52ad801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 3.png using Guid(c7b56de72c95e6b4c84d50e1f52ad801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579328254f503e5d8502c198f028a006') in 0.021060 seconds 
+  Import took 0.024490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 2.png
+  artifactKey: Guid(1705001ffa6af844892f1bf3e7dd8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 2.png using Guid(1705001ffa6af844892f1bf3e7dd8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236a7ff38e320342d85757bfc2e5b0e8') in 0.022096 seconds 
+  Import took 0.025258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 3.png
+  artifactKey: Guid(23da9cd4ba557e14ea86d491625d086a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 6/layer 3.png using Guid(23da9cd4ba557e14ea86d491625d086a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ba5217110f889869f1e7a17ceed766') in 0.021140 seconds 
+  Import took 0.024978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 4.png
+  artifactKey: Guid(4593cfe334c332d48a22dc71d9dfde50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/layer 4.png using Guid(4593cfe334c332d48a22dc71d9dfde50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b7348bf031b379f1e29e8cd0e3a12d') in 0.022741 seconds 
+  Import took 0.026342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 1.png
+  artifactKey: Guid(aec39cc4ec9061d44bde5ec7f6f35c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 1.png using Guid(aec39cc4ec9061d44bde5ec7f6f35c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7de3fdddf755cccefafb21ab5bc2aeb') in 0.021862 seconds 
+  Import took 0.025250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 2.png
+  artifactKey: Guid(f241450616924e14593388b1b2ed326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 5/layer 2.png using Guid(f241450616924e14593388b1b2ed326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2300049458939905ea7e7f7c934eca44') in 0.023599 seconds 
+  Import took 0.026731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 1.png
+  artifactKey: Guid(87452792caa6a9843b40eea3570e04f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 7/layer 1.png using Guid(87452792caa6a9843b40eea3570e04f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c787d565220804787eae4805a6b91f') in 0.021649 seconds 
+  Import took 0.025116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 3.png
+  artifactKey: Guid(8a7929cf2af818744bcb1e0a72eb1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 3/layer 3.png using Guid(8a7929cf2af818744bcb1e0a72eb1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3f05c69d88f8ab35a5332b5bd1c0f1') in 0.022722 seconds 
+  Import took 0.026110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/illustration 1.psd
+  artifactKey: Guid(52235f741c7b97e469b064c3010a321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 1/illustration 1.psd using Guid(52235f741c7b97e469b064c3010a321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5de69bd003f5411bbb4ea88c37915a5') in 0.022660 seconds 
+  Import took 0.025916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 2.png
+  artifactKey: Guid(0f576dadfbebc2e4b862853b349437f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chicken Games/2D Artistic Illustrations Pack/Illustrations/Illustration 4/layer 2.png using Guid(0f576dadfbebc2e4b862853b349437f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec8cca7b88be9b509648c13e33d1aa1') in 0.024519 seconds 
+  Import took 0.027754 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 4.089200 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.099500 ms MarkObjects: 3.663300 ms  DeleteObjects: 0.126700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

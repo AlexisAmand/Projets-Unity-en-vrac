@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - LoadSpecificScene
     - MainMenu
     - MovingPlatform
+    - PauseMenu
     - PickUpObject
     - PlayerHealth
     - PlayerMovement
@@ -28,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Sprite.Editor.dll:
     - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
@@ -119,6 +121,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1974}
     - Class: 114
+      Script: {instanceID: 2004}
+    - Class: 114
       Script: {instanceID: 2082}
     - Class: 114
       Script: {instanceID: 2208}
@@ -149,6 +153,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
+      Script: {instanceID: 3784}
+    - Class: 114
       Script: {instanceID: 3900}
     - Class: 114
       Script: {instanceID: 3940}
@@ -157,11 +163,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4228}
     - Class: 114
+      Script: {instanceID: 4772}
+    - Class: 114
       Script: {instanceID: 4936}
+    - Class: 114
+      Script: {instanceID: 4998}
+    - Class: 114
+      Script: {instanceID: 5212}
     - Class: 114
       Script: {instanceID: 5266}
     - Class: 114
       Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 5734}
     - Class: 114
       Script: {instanceID: 5876}
     - Class: 114
@@ -172,6 +186,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6238}
     - Class: 114
       Script: {instanceID: 6334}
+    - Class: 114
+      Script: {instanceID: 22560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,6 +205,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -1237,6 +1259,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pieges
+  - hash:
+      serializedVersion: 2
+      Hash: 9e7bb5714239dce61e635a409824f331
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -1244,5 +1272,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level02.unity
   - Assets/Scenes/Level03.unity
   - Assets/Scenes/Level04.unity
-  playerPath: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D/Builds/Build 11022022/Game
-    2D.exe
+  playerPath: C:/Users/alexi/Desktop/Build/Game 2D.exe

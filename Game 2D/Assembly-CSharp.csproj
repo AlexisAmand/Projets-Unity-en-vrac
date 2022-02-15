@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Dangers\EnnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Game\Inventory.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpawn.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Scripts\Game\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\ladder.cs" />
     <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
-    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

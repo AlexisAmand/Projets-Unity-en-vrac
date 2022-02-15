@@ -26,3 +26,7 @@ https://opengameart.org/content/seamless-hd-landscape-in-parts
 
 Toiles d'araignées :  
 https://opengameart.org/content/2d-spider-webs
+
+Police pixelated :
+https://www.dafont.com/pixelated.font
+

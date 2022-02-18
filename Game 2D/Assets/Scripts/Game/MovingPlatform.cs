@@ -40,7 +40,7 @@ public class MovingPlatform : MonoBehaviour
     }
 
     /* Les deux fonctions qui suivent corrigent le bug du perso sur la plateforme
-     * Il reste dessus et la suit, plus besoin d'appyer sur gauche/droite pour maintenir
+     * Il reste dessus et la suit, plus besoin d'appuyer sur gauche/droite pour maintenir
      * le personnage dessus */
     
     private void OnTriggerEnter2D(Collider2D collision)

@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 54707617}
   - component: {fileID: 54707616}
   m_Layer: 0
-  m_Name: cornerweb_tl
+  m_Name: web (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 134622113}
   - component: {fileID: 134622112}
   m_Layer: 0
-  m_Name: cornerweb_tl (1)
+  m_Name: web (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66347,7 +66347,7 @@ GameObject:
   - component: {fileID: 1374074688}
   - component: {fileID: 1374074687}
   m_Layer: 0
-  m_Name: ' Details'
+  m_Name: Details
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68887,7 +68887,7 @@ GameObject:
   - component: {fileID: 1690406176}
   - component: {fileID: 1690406175}
   m_Layer: 0
-  m_Name: cornerweb_tl (2)
+  m_Name: web (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69746,7 +69746,7 @@ GameObject:
   - component: {fileID: 1836360932}
   - component: {fileID: 1836360931}
   m_Layer: 0
-  m_Name: cornerweb_bl
+  m_Name: web (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69973,7 +69973,7 @@ GameObject:
   - component: {fileID: 1903885121}
   - component: {fileID: 1903885120}
   m_Layer: 0
-  m_Name: cornerweb_tl (3)
+  m_Name: web (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

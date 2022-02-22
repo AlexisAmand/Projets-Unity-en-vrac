@@ -7,12 +7,22 @@ public class MainMenu : MonoBehaviour
     public string levelToload;
 
     public GameObject settingsWindow;
+    public GameObject introWindow;
 
+    // cette fonction lance le jeu quand on appuye sur le bouton jouer de la popup intro
     public void StartGame()
-    {
+    {    
         SceneManager.LoadScene(levelToload);
+        // introWindow.SetActive(false);
     }
 
+    // cette fonction affiche une sorte de popup avant de démarrer le jeu.
+    public void ShowIntro()
+    {
+        introWindow.SetActive(true);
+    }
+
+    // cette fonction affiche fenêtre des options
     public void SettingsButton()
     {
         settingsWindow.SetActive(true);
@@ -21,6 +31,7 @@ public class MainMenu : MonoBehaviour
     public void CloseSettingsButton()
     {
         settingsWindow.SetActive(false);
+        introWindow.SetActive(false);
     }
 
     public void QuitGame()

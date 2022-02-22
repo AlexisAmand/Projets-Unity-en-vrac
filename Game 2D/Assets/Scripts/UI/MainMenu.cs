@@ -7,7 +7,8 @@ public class MainMenu : MonoBehaviour
     public string levelToload;
 
     public GameObject settingsWindow;
-    public GameObject introWindow;
+    public GameObject introWindow; 
+    public GameObject exitConfirmWindow;
 
     // cette fonction lance le jeu quand on appuye sur le bouton jouer de la popup intro
     public void StartGame()
@@ -37,6 +38,16 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void exitConfirmWindowShow()
+    {
+        exitConfirmWindow.SetActive(true);
+    }
+
+    public void exitConfirmWindowHidden()
+    {
+        exitConfirmWindow.SetActive(false);
     }
 
 }

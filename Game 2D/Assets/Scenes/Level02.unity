@@ -854,7 +854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (10)
+      value: Torch (10)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -980,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827611, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_Name
-      value: Ennemy (1)
+      value: Snake (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
@@ -3517,7 +3517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (2)
+      value: Torch (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -4614,7 +4614,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (8)
+      value: Torch (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -5169,7 +5169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827611, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_Name
-      value: Ennemy (2)
+      value: Snake (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
@@ -5182,7 +5182,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (1)
+      value: Torch (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -5570,7 +5570,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (6)
+      value: Torch (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -5632,7 +5632,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (5)
+      value: Torch (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -66028,7 +66028,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (11)
+      value: Torch (11)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -68513,7 +68513,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (4)
+      value: Torch (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -68575,7 +68575,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (3)
+      value: Torch (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -68642,7 +68642,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (7)
+      value: Torch (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -68761,7 +68761,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (13)
+      value: Torch (13)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -69254,7 +69254,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (12)
+      value: Torch (12)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder
@@ -70366,7 +70366,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2450218119150250323, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_Name
-      value: LittleTorch (9)
+      value: Torch (9)
       objectReference: {fileID: 0}
     - target: {fileID: 2450218119150250349, guid: a3f2c6d083adba542a585d67ebf10d5e, type: 3}
       propertyPath: m_RootOrder

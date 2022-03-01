@@ -11,6 +11,9 @@ public class SettingsMenu : MonoBehaviour
 
     public Dropdown resolutionDropDown;
 
+    public GameObject minimap;
+    public bool minimapHere = true;
+
     /* liste des resolutions dispos */
     Resolution[] resolutions;
 
@@ -54,7 +57,20 @@ public class SettingsMenu : MonoBehaviour
         Screen.fullScreen = isFullScren;
     }
 
-    
+    public void SetMinimap()
+    {
+        if (minimapHere)
+        {
+            minimap.SetActive(false);
+            minimapHere = false;
+        }
+        else
+        {
+            minimap.SetActive(true);
+            minimapHere = true;
+        }
+
+    }
 
     public void SetResolution(int resolutionIndex)
     {

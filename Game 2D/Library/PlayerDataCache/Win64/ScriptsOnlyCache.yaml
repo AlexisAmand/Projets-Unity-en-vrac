@@ -30,7 +30,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Sprite.Editor.dll:
     - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
@@ -186,15 +185,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 5880}
+      Script: {instanceID: 5882}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6242}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -279,13 +278,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5340}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6242}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -350,13 +349,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5270}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6242}
+      Script: {instanceID: 6244}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 6340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -386,59 +385,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 62
-      Script: {instanceID: 0}
-    - Class: 66
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 974}
     - Class: 114
-      Script: {instanceID: 1892}
-    - Class: 114
-      Script: {instanceID: 2444}
-    - Class: 114
       Script: {instanceID: 2984}
     - Class: 114
-      Script: {instanceID: 3342}
-    - Class: 114
-      Script: {instanceID: 3446}
-    - Class: 114
       Script: {instanceID: 4940}
-    - Class: 114
-      Script: {instanceID: 5270}
-    - Class: 114
-      Script: {instanceID: 5916}
-    - Class: 114
-      Script: {instanceID: 5942}
-    - Class: 114
-      Script: {instanceID: 6242}
-    - Class: 114
-      Script: {instanceID: 6338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 19719996
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -460,6 +421,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -492,7 +457,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5738}
     - Class: 114
-      Script: {instanceID: 6188}
+      Script: {instanceID: 6190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1184,7 +1149,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 00b926680901033490d81d6f1fe0b422
+      Hash: 851804c9a6ef9fd0fe16f795e28a1642
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SettingsMenu
@@ -1238,7 +1203,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 25f65fde136a1afca68c8d7fe0f442c1
+      Hash: 794e1eaf1ad6ce1e1b0e4c214f97337f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -1285,5 +1250,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level02.unity
   - Assets/Scenes/Level03.unity
   - Assets/Scenes/Level04.unity
-  playerPath: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D/Builds/Build 15022022/Game
+  playerPath: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D/Builds/Build 03032022/Game
     2D.exe

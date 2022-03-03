@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 9037946326444827611}
+  killSound: {fileID: 8300000, guid: 4abae1ef5a7f45645b949334ec3fd546, type: 3}
 --- !u!1 &9037946325399124818
 GameObject:
   m_ObjectHideFlags: 0

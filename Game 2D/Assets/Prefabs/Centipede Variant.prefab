@@ -75,6 +75,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ea78fb734baf93c4c92000172c646476, type: 2}
+    - target: {fileID: 9037946324751296389, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
+      propertyPath: killSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4abae1ef5a7f45645b949334ec3fd546, type: 3}
     - target: {fileID: 9037946324751296390, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_Size.x
       value: 0.37212083

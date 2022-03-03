@@ -6,6 +6,9 @@ public class HealPowerUp : MonoBehaviour
 
     public int healthpoint;
 
+    /* son pour la vie en + */
+    public AudioClip pickupSound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
      
@@ -18,6 +21,8 @@ public class HealPowerUp : MonoBehaviour
 
             if (PlayerHealth.Instance.currentHealth != PlayerHealth.Instance.maxHealth)
             {
+                // on joue le son
+                AudioManager.Instance.PlayClipAt(pickupSound, transform.position);
                 // rendre de la vie au joueur
                 PlayerHealth.Instance.HealPlayer(healthpoint);
                 // mettre à jour de dessin

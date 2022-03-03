@@ -101,7 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
-  jumpForce: 300
+  climbSpeed: 175
+  jumpForce: 350
+  isClimbing: 0
   groundCheck: {fileID: 6920768104410045310}
   groundCheckRadius: 0.4
   collisionLayers:
@@ -110,6 +112,7 @@ MonoBehaviour:
   rb: {fileID: 6920768103166315972}
   animator: {fileID: 6920768103166315977}
   SpriteRenderer: {fileID: 6920768103166315978}
+  playerCollider: {fileID: 6920768103166315975}
 --- !u!50 &6920768103166315972
 Rigidbody2D:
   serializedVersion: 4
@@ -169,6 +172,7 @@ MonoBehaviour:
   isInvincible: 0
   graphics: {fileID: 6920768103166315978}
   healthBar: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 4f203589d45fcdb4c9e179fe8156497a, type: 3}
 --- !u!70 &6920768103166315975
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -182,8 +186,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.031987846, y: -0.30519986}
-  m_Size: {x: 0.9402281, y: 1.3896003}
+  m_Offset: {x: 0.031987667, y: -0.30519986}
+  m_Size: {x: 0.8147402, y: 1.3896003}
   m_Direction: 0
 --- !u!1 &6920768104410045305
 GameObject:

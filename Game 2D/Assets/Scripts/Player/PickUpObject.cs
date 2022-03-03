@@ -4,7 +4,6 @@ public class PickUpObject : MonoBehaviour
 
 {
 
-    public AudioSource audioSource;
     public AudioClip sound;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -12,7 +11,7 @@ public class PickUpObject : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // on joue le son
-            AudioSource.PlayClipAtPoint(sound, transform.position);
+            AudioManager.Instance.PlayClipAt(sound, transform.position);
 
             // on ajoute la piece à l'inventaire
             Inventory.Instance.AddCoins(1);
@@ -21,6 +20,7 @@ public class PickUpObject : MonoBehaviour
         }
     }
 
+    
 
 
 }

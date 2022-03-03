@@ -16,6 +16,9 @@ public class PlayerHealth : MonoBehaviour
 
     public static PlayerHealth Instance;
 
+    /* son pour les dégats */
+    public AudioClip hitSound;
+
     private void Awake()
     {
         if (Instance != null)
@@ -64,6 +67,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (!isInvincible)
         {
+            AudioManager.Instance.PlayClipAt(hitSound, transform.position);
+
             currentHealth -= damage; /* nouvelle valeur du nbre de pts de vie */
             healthBar.SetHealth(currentHealth); /* mise à jour du visuel */
 

@@ -930,6 +930,8 @@ MonoBehaviour:
   resolutionDropDown: {fileID: 6081687006713370711}
   minimap: {fileID: 0}
   minimapHere: 1
+  musicSlider: {fileID: 6081687006436340579}
+  soundSlider: {fileID: 2005092589547512931}
 --- !u!1 &6081687006033826647
 GameObject:
   m_ObjectHideFlags: 0

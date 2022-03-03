@@ -48,8 +48,12 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        Debug.Log(volume);
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("Music", volume);
+    }
+
+    public void SetSoundVolume(float volume)
+    {
+        audioMixer.SetFloat("Sound", volume);
     }
 
     public void SetFullScreen(bool isFullScren)
@@ -69,7 +73,6 @@ public class SettingsMenu : MonoBehaviour
             minimap.SetActive(true);
             minimapHere = true;
         }
-
     }
 
     public void SetResolution(int resolutionIndex)

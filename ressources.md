@@ -30,3 +30,6 @@ https://opengameart.org/content/2d-spider-webs
 Police pixelated :
 https://www.dafont.com/pixelated.font
 
+8-Bit Sound Effects Library :
+https://opengameart.org/content/8-bit-sound-effects-library
+

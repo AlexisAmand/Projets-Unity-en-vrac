@@ -9,7 +9,6 @@ public class LoadSpecificScene : MonoBehaviour
     public string sceneName;
     public Animator fadeSystem;
 
-
     /* Gestion de l'ouverture de la porte */
     public Sprite sprite1; // porte fermée
     public Sprite sprite2; // porte ouverte
@@ -17,6 +16,11 @@ public class LoadSpecificScene : MonoBehaviour
     private SpriteRenderer spriteRenderer; /* On récupére le spriterenderer pour pouvoir modifier le sprite tout à l'heure */
 
     public int CoinsGoal; /* Nombre de coins à trouver dans le niveau. Valeur à completer dans Unity */
+
+    /* Son qui indique qu'on change de niveau */
+    // public AudioClip levelEnd;
+    /* Son qui indique que la porte s'ouvre */
+    // public AudioClip doorOpen;
 
     void Start()
     {
@@ -35,10 +39,12 @@ public class LoadSpecificScene : MonoBehaviour
 
     void ChangeSprite2()
     {
+        /* On joue le son qui indique que la porte s'ouvre */
+        // AudioManager.Instance.PlayClipAt(doorOpen, transform.position);
 
+        /* On change le sprite pour la version "porte ouverte */
         spriteRenderer.sprite = sprite2; /* On remplace le sprite */
         DoorClosed = false; /* La porte est maintenant ouverte */
-
     }
 
     private void Awake()
@@ -56,7 +62,11 @@ public class LoadSpecificScene : MonoBehaviour
 
     public IEnumerator loadNextScene()
     {
+        /* On joue le son du changement de scène */
+        // AudioManager.Instance.PlayClipAt(levelEnd, transform.position);
+
         fadeSystem.SetTrigger("FadeIn");
+
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
     }

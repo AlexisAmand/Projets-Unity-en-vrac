@@ -3,6 +3,9 @@
 
 Liste des ressources que j'ai utilisées dans mes divers projets (hors créations personnelles).
 
+Tileset "A platformer in the forest"
+https://opengameart.org/content/a-platformer-in-the-forest
+
 Tileset "ambiance marais" :  
 https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/
 
@@ -15,7 +18,7 @@ https://opengameart.org/content/animated-pixel-torch
 Sprite sheet pour la chauve-souris :  
 https://opengameart.org/content/bat-sprite
 
-Bouteille/Potion :  
+Potion bottles :
 https://opengameart.org/content/potion-bottles-1
 
 Ultimate 2D Backgrounds Pack :  

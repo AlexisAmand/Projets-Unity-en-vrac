@@ -35,6 +35,11 @@ public class MainMenu : MonoBehaviour
         introWindow.SetActive(false);
     }
 
+    public void LoadCreditsScene()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

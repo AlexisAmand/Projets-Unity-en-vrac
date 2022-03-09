@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level04.unity
     guid: 7c259f6b7c3e5db469b3e55f3ce2b2fa
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d4fb30a0917f077438f963731a7a3e0e
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 07115710d88e1174da605b1f64a802ae, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 21b7bed71d27d484190465b74f1fb86c, type: 2}

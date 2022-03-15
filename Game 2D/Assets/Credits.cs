@@ -11,13 +11,14 @@ public class Credits : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    /* On appuye sur ESC pour skip les crédits */
+    /* Si on appuye sur ESC, ça skip les crédits et ça charge le Main Menu */
 
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("MainMenu");
+            // SceneManager.LoadScene("MainMenu");
+            LoadMainMenu();
         }
 
     }

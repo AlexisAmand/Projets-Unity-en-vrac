@@ -29,27 +29,34 @@ public class MainMenu : MonoBehaviour
         settingsWindow.SetActive(true);
     }
 
+    // cette fonction ferme la fenêtre des options
     public void CloseSettingsButton()
     {
         settingsWindow.SetActive(false);
         introWindow.SetActive(false);
     }
 
+    // cette fonction ouvre la scene qui contient les crédits
     public void LoadCreditsScene()
     {
         SceneManager.LoadScene("Credits");
     }
 
+    // cette fonction permet de quitter le jeu
     public void QuitGame()
     {
         Application.Quit();
     }
 
+    // TODO : les deux fonctions qui suivent sont surement fusionnables
+
+    // cette fonction affiche la fenêtre qui demande une confirmation avant de quitter le jeu
     public void exitConfirmWindowShow()
     {
         exitConfirmWindow.SetActive(true);
     }
 
+    // cette fonction masque la fenêtre qui demande une confirmation avant de quitter le jeu
     public void exitConfirmWindowHidden()
     {
         exitConfirmWindow.SetActive(false);

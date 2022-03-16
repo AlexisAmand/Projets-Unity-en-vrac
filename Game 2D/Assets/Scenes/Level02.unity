@@ -1312,6 +1312,10 @@ PrefabInstance:
       value: PlayerSpawn
       objectReference: {fileID: 0}
     - target: {fileID: 5088438037748222869, guid: db8a6731a43231e4aa62f72845005a76, type: 3}
+      propertyPath: Welcome
+      value: 
+      objectReference: {fileID: 892614949112979712, guid: 66ce017de6c8fc0489c27ce8ddcf1edd, type: 3}
+    - target: {fileID: 5088438037748222869, guid: db8a6731a43231e4aa62f72845005a76, type: 3}
       propertyPath: levelTitle
       value: 
       objectReference: {fileID: 0}

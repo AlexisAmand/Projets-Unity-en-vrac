@@ -8,6 +8,7 @@ TagManager:
   - PlayerSpawn
   - InteractUI
   - MovingPF
+  - Welcome
   layers:
   - Default
   - TransparentFX

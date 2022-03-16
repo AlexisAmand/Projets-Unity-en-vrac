@@ -1,9 +1,9 @@
-### Pluies et particules 2D
+### Lumières en 2D
 
-Un petit projet pour tester la création d'un effet de pluie en utilisant un système de particules en utilisant un mix des tutos suivants :
+Un petit projet pour tester la création de lumières en utilisant le tuto suivant :
 
-* [https://www.youtube.com/watch?v=xkB6yzCBfgw](https://www.youtube.com/watch?v=xkB6yzCBfgw)
-* [https://www.youtube.com/watch?v=QP8zj-JQgmI](https://www.youtube.com/watch?v=QP8zj-JQgmI)
+* [https://www.youtube.com/watch?v=nkgGyO9VG54](https://www.youtube.com/watch?v=nkgGyO9VG54)
+
 
 
 

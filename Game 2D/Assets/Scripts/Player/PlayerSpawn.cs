@@ -1,6 +1,6 @@
-using UnityEngine.UI;
+// using UnityEngine.UI;
 using UnityEngine;
-using System.Collections;
+// using System.Collections;
 
 public class PlayerSpawn : MonoBehaviour
 {

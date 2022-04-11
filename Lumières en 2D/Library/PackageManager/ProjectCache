@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637830431739210465
+      ticks: 637830431740000000
     m_Hash: 4086306028
   m_LockFileStatus:
     m_FilePath: "C:/Users/alexi/Mon Drive/Unity/Projets/Lumi\xE8res en 2D/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637830431739340454
+      ticks: 637830431740000000
     m_Hash: 3266030487
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

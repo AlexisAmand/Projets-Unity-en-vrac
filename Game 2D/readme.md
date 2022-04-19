@@ -20,3 +20,7 @@ fleche gauche : aller vers la gauche
 fleche droite : aller vers la droite
 fleche haut : aller vers le haut sur une échelle
 fleche bas : aller vers le bas sur une échelle
+
+### Téléchargement
+
+C'est par là : https://alexisamand.itch.io/the-little-king

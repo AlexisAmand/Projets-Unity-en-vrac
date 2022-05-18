@@ -50,16 +50,29 @@ public class MainMenu : MonoBehaviour
 
     // TODO : les deux fonctions qui suivent sont surement fusionnables
 
-    // cette fonction affiche la fenêtre qui demande une confirmation avant de quitter le jeu
+    // afficher la confirmation avant de quitter le jeu
     public void exitConfirmWindowShow()
     {
         exitConfirmWindow.SetActive(true);
     }
 
-    // cette fonction masque la fenêtre qui demande une confirmation avant de quitter le jeu
+    // cacher la confirmation avant de quitter le jeu
     public void exitConfirmWindowHidden()
     {
         exitConfirmWindow.SetActive(false);
     }
+
+    // Affichage de l'aide
+    public void LoadHelpScene()
+    {
+        SceneManager.LoadScene("Help");
+    }
+
+    // Retour sur le menu principal
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 
 }

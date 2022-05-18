@@ -10,6 +10,7 @@ public class ladder : MonoBehaviour
     public BoxCollider2D topCollider;
 
     public Text interactUI;
+    
 
     void Awake()
     {

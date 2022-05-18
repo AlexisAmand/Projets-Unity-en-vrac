@@ -9,6 +9,7 @@ TagManager:
   - InteractUI
   - MovingPF
   - Welcome
+  - DoorUI
   layers:
   - Default
   - TransparentFX

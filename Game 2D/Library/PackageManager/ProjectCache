@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031474226109687
-    m_Hash: 3206983114
+      ticks: 638036188730290882
+    m_Hash: 3363544027
   m_LockFileStatus:
     m_FilePath: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031474226189708
-    m_Hash: 780375375
+      ticks: 638036188730360875
+    m_Hash: 3717381861
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -378,129 +378,6 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
-        path: 
-    - packageId: com.unity.adaptiveperformance@2.2.4
-      testable: 0
-      isDirectDependency: 1
-      version: 2.2.4
-      source: 1
-      resolvedPath: C:\Users\alexi\Mon Drive\Unity\Projets\Game 2D\Library\PackageCache\com.unity.adaptiveperformance@2.2.4
-      assetPath: Packages/com.unity.adaptiveperformance
-      name: com.unity.adaptiveperformance
-      displayName: Adaptive Performance
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: asset
-      description: 'The Adaptive Performance package provides an API to get feedback
-        about the thermal and power state of mobile devices, enabling applications
-        to make performance-relevant adaptions at runtime.
-
-
-        For instruction
-        on how to use samples, please read the documentation.
-
-
-        By installing
-        this package, you agree to the terms and conditions of the Unity End User
-        License Agreement found under "View licenses" above.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.2.0-preview.1
-        - 1.0.0
-        - 1.0.1
-        - 1.1.0-preview.2
-        - 1.1.0-preview.3
-        - 1.1.0-preview.4
-        - 1.1.0-preview.5
-        - 1.1.0-preview.7
-        - 1.1.0
-        - 1.1.6
-        - 1.1.9
-        - 1.1.10
-        - 1.2.0
-        - 1.2.2
-        - 1.2.3
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0-preview.4
-        - 2.0.0-preview.7
-        - 2.0.0-preview.8
-        - 2.0.0-preview.9
-        - 2.0.0-preview.10
-        - 2.0.0-preview.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.1.0
-        - 2.1.1
-        - 2.2.1
-        - 2.2.3
-        - 2.2.4
-        - 3.0.0-pre.2
-        - 3.0.0
-        - 3.0.2
-        - 3.0.3
-        - 4.0.0-pre.1
-        - 4.0.0
-        - 4.0.1
-        - 5.0.0-pre.1
-        compatible:
-        - 2.2.1
-        - 2.2.3
-        - 2.2.4
-        verified: 2.2.4
-      dependencies:
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      resolvedDependencies:
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords:
-      - mobile
-      - adaptive
-      - performance
-      - utility
-      - utilities
-      - core
-      - samsung
-      - ap
-      - provider
-      - subsystem
-      - indexer
-      - scaler
-      - vrr
-      - boost
-      - profiles
-      - cluster
-      - clusterinfo
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 0
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637940147590000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
-        revision: 9d1a724b885dc2444251baaefdd3733775228891
         path: 
     - packageId: com.unity.collab-proxy@1.15.18
       testable: 0
@@ -3882,72 +3759,6 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
         revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
-    - packageId: com.unity.subsystemregistration@1.1.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.1.0
-      source: 1
-      resolvedPath: C:\Users\alexi\Mon Drive\Unity\Projets\Game 2D\Library\PackageCache\com.unity.subsystemregistration@1.1.0
-      assetPath: Packages/com.unity.subsystemregistration
-      name: com.unity.subsystemregistration
-      displayName: Subsystem Registration
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: asset
-      description: Provides internal registration mechanism for standalone subsystems. 
-        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0-preview.4
-        - 1.0.4
-        - 1.0.5
-        - 1.0.6
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2
-        compatible:
-        - 1.0.6
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2
-        verified: 1.1.2
-      dependencies:
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      keywords:
-      - subsystem
-      - registration
-      - internal
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 0
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637314426150000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
-        revision: 72584ba5248fbe79e560e795ad819f876954fceb
-        path: 
     - packageId: com.unity.2d.common@4.0.4
       testable: 0
       isDirectDependency: 0
@@ -4003,6 +3814,7 @@ m_PackageAssets:
         - 6.0.3
         - 6.0.4
         - 6.0.5
+        - 6.0.6
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
@@ -4223,6 +4035,7 @@ m_PackageAssets:
         - 5.2.1
         - 5.2.3
         - 5.2.4
+        - 5.2.6
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -4241,6 +4054,7 @@ m_PackageAssets:
         - 7.0.6
         - 7.0.7
         - 7.0.8
+        - 7.0.9
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
@@ -4262,6 +4076,7 @@ m_PackageAssets:
         - 5.2.1
         - 5.2.3
         - 5.2.4
+        - 5.2.6
         verified: 5.0.10
       dependencies:
       - name: com.unity.2d.common

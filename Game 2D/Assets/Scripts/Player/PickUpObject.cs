@@ -17,7 +17,7 @@ public class PickUpObject : MonoBehaviour
             Inventory.Instance.AddCoins(1);
             CurrentSceneManager.Instance.coinsPickedUpInThisSceneCount++;
             Destroy(gameObject);
-            Debug.Log("nombre total de coins : " + Inventory.Instance.coinsCount);
+
         }
     }
 

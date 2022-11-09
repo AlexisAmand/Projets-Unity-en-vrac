@@ -23,6 +23,7 @@ public class HealthBar : MonoBehaviour
         slider.value = health;
 
         fill.color = gradient.Evaluate(slider.normalizedValue);
+        Debug.LogWarning("Le joueur a maintenant " + health + " Points de vie");
     }
 
 }

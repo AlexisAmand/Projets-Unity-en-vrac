@@ -17,7 +17,6 @@ public class LoadSpecificScene : MonoBehaviour
     private SpriteRenderer spriteRenderer; /* On récupére le spriterenderer pour pouvoir modifier le sprite tout à l'heure */
 
     public int CoinsGoal; /* Nombre de coins à trouver dans le niveau. Valeur à completer dans Unity */
-    public Text doorUI; 
 
     /* Son qui indique qu'on change de niveau */
     // public AudioClip levelEnd;
@@ -35,7 +34,6 @@ public class LoadSpecificScene : MonoBehaviour
         if (Inventory.Instance.coinsCount == CoinsGoal) /* Si toutes les pieces sont ramassées */
         {
             ChangeSprite2(); // On appelle la méthode qui change le Sprite
-            doorUI.enabled = true; // affichage du message
         }
 
     }
@@ -53,7 +51,6 @@ public class LoadSpecificScene : MonoBehaviour
     void Awake()
     {
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
-        doorUI = GameObject.FindGameObjectWithTag("DoorUI").GetComponent<Text>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

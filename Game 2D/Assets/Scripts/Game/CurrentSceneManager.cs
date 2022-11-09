@@ -3,7 +3,7 @@ using UnityEngine;
 public class CurrentSceneManager : MonoBehaviour
 {
     public bool isPlayerPresentByDefault = false;
-    public int coinsPickedUpInThisSceneCount; 
+    public int coinsPickedUpInThisSceneCount;
 
     public static CurrentSceneManager Instance;
 

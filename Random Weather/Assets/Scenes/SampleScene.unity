@@ -128,20 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7315837999560258833, guid: 9ab6d4ed812ae004baa4b12582868839, type: 3}
   m_PrefabInstance: {fileID: 831645604}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &40672129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40672125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e1566fbe43ac94c813fadef0699dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rainGenerator: {fileID: 2373745358266361305, guid: 3ea808654b6a84f4dbf1be96b69f568b, type: 3}
-  snowGenerator: {fileID: 7315837999560258833, guid: 9ab6d4ed812ae004baa4b12582868839, type: 3}
 --- !u!1 &146455601
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,14 +139,13 @@ GameObject:
   - component: {fileID: 146455604}
   - component: {fileID: 146455603}
   - component: {fileID: 146455602}
-  - component: {fileID: 146455605}
   m_Layer: 0
   m_Name: Rain Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &146455602
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -4947,20 +4932,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &146455605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146455601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e1566fbe43ac94c813fadef0699dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rainGenerator: {fileID: 146455601}
-  snowGenerator: {fileID: 40672125}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5057,7 +5028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7315837999560258833, guid: 9ab6d4ed812ae004baa4b12582868839, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7315837999560258836, guid: 9ab6d4ed812ae004baa4b12582868839, type: 3}
       propertyPath: m_RootOrder
@@ -5949,4 +5920,49 @@ Transform:
   - {fileID: 1619712452}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2144021962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144021964}
+  - component: {fileID: 2144021963}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2144021963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144021962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e1566fbe43ac94c813fadef0699dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainGenerator: {fileID: 146455601}
+  snowGenerator: {fileID: 40672125}
+--- !u!4 &2144021964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144021962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -733,14 +733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8346503c1219f4496fc4838acf0234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planche01: {fileID: 8344049204943971364}
-  planche02: {fileID: 8344049205733353542}
-  planche03: {fileID: 8344049204848380699}
-  planche04: {fileID: 8344049206293257033}
-  planche05: {fileID: 8344049206312046114}
-  planche06: {fileID: 8344049205422780838}
-  planche07: {fileID: 8344049206739615296}
-  planche08: {fileID: 8344049205472436197}
+  planches: []
+  damage: 15
 --- !u!1 &8344049206293257033
 GameObject:
   m_ObjectHideFlags: 0

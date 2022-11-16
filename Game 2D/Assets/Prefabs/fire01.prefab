@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 562070936023503462}
   - component: {fileID: 562070936023503463}
-  - component: {fileID: 562070936023503456}
   - component: {fileID: 562070936023503457}
   - component: {fileID: 562070936023503458}
+  - component: {fileID: 1886512132201708266}
   m_Layer: 0
   m_Name: fire01
   m_TagString: Untagged
@@ -85,19 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &562070936023503456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562070936023503459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af39f2e08eb5f9b48960de821ad455fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 50
 --- !u!61 &562070936023503457
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -143,3 +130,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1886512132201708266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562070936023503459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd654b7bf3e5084fb045763a4841274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireDamage: 50

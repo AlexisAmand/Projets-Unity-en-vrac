@@ -1,0 +1,7 @@
+Bugs
+----
+
+- 2 fois le fade dans le level 01 si le perso tombe
+- pas de retour au début si le perso tombe dans le level 01
+
+

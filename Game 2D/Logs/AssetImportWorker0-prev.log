@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.42f1 (7ade1201f527) revision 8052242'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'fr' Physical Memory: 16249 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16249 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62978
+54653
 Successfully changed project path to: C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D
 C:/Users/alexi/Mon Drive/Unity/Projets/Game 2D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.42f1 (7ade1201f527)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001847 seconds.
+Registered in 0.002024 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
+- Completed reload, in  0.738 seconds
 Domain Reload Profiling:
-	ReloadAssembly (627ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004834 seconds.
+Registered in 0.005357 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 153.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.262 seconds
+- Completed reload, in  1.863 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1263ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1865ms)
+		BeginReloadAssembly (239ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1535ms)
+			LoadAssemblies (156ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
+			SetupTypeCache (454ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (574ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.80 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.8 MB.
-System memory in use after: 167.0 MB.
+System memory in use before: 166.9 MB.
+System memory in use after: 167.1 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3863.
-Total: 3.362600 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.895800 ms  DeleteObjects: 0.031900 ms)
+Total: 6.370100 ms (FindLiveObjects: 0.538000 ms CreateObjectMapping: 0.324900 ms MarkObjects: 5.443300 ms  DeleteObjects: 0.061900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,67 +132,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/imports/persos/gravestones/grave-15.png
-  artifactKey: Guid(b73ed1d5e48514b43971c22709b0bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/grave-15.png using Guid(b73ed1d5e48514b43971c22709b0bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d023b24ef7fbe2fbebc6d1a43a36c72') in 0.141769 seconds 
+  path: Assets/imports/Materials/poteau.mat
+  artifactKey: Guid(7744a89a6844cea43b3cb5778f4df1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/Materials/poteau.mat using Guid(7744a89a6844cea43b3cb5778f4df1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bfbcdf0f240fad454ae03d44083693') in 0.298363 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.339056 seconds.
-  path: Assets/imports/persos/gravestones/grave-16.png
-  artifactKey: Guid(6c0968e5b9aeaa840a37b7fa6c016d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/grave-16.png using Guid(6c0968e5b9aeaa840a37b7fa6c016d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd92f160e1e46102952f07a9a0aea55') in 0.011128 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.6 MB.
+System memory in use after: 164.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3945.
+Total: 4.489000 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.152400 ms MarkObjects: 4.037000 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 28.698891 seconds.
-  path: Assets/imports/persos/gravestones/64x64
-  artifactKey: Guid(9fb723ab02ea7bf46a7f7c2da52633ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/64x64 using Guid(9fb723ab02ea7bf46a7f7c2da52633ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b934b4620707501c301a943fb73c9f67') in 0.002566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 254.973420 seconds.
-  path: Assets/imports/persos/gravestones/64x64 1
-  artifactKey: Guid(36cf51c933b7561448c79d00db14b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/64x64 1 using Guid(36cf51c933b7561448c79d00db14b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267b98b0201042b9c68c0cba7336be72') in 0.002883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.361551 seconds.
-  path: Assets/imports/persos/gravestones/256x256
-  artifactKey: Guid(36cf51c933b7561448c79d00db14b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256 using Guid(36cf51c933b7561448c79d00db14b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9000ad992b928a7134a7f8d1e2971329') in 0.002610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 536.167645 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-05.png
-  artifactKey: Guid(66219ba1dc50ac74391d57f909898ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-05.png using Guid(66219ba1dc50ac74391d57f909898ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4441d6a2295a2f081ba60596b8b15a5') in 0.009657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 341.826322 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-04.png
-  artifactKey: Guid(1d770e4a11d39174eaf3f2b581c7a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-04.png using Guid(1d770e4a11d39174eaf3f2b581c7a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e03849e553f8319387f9fa65506168') in 0.019750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 805.446126 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-12.png
-  artifactKey: Guid(98bc9442488334543b6fd05691700d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-12.png using Guid(98bc9442488334543b6fd05691700d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7341148cc0642ac5e91b1ea50e21e09e') in 0.011983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.576368 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-14.png
-  artifactKey: Guid(cb5c63adf3cd78d458170836150d8560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-14.png using Guid(cb5c63adf3cd78d458170836150d8560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cb553feb9b7433651747ef29a7bc50') in 0.010671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.529808 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-13.png
-  artifactKey: Guid(394096f388309ff4e95aed280ba640e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-13.png using Guid(394096f388309ff4e95aed280ba640e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1ea2116dbb8d3ca24ad04e125b2136') in 0.021605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.485894 seconds.
-  path: Assets/imports/persos/gravestones/256x256/grave-15.png
-  artifactKey: Guid(a6bd8ab55821acf4292fe468ac105470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/imports/persos/gravestones/256x256/grave-15.png using Guid(a6bd8ab55821acf4292fe468ac105470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e876433a014f496045cde34a5f32170c') in 0.010154 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1269ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3948.
+Total: 5.650600 ms (FindLiveObjects: 0.389500 ms CreateObjectMapping: 0.418400 ms MarkObjects: 4.807600 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

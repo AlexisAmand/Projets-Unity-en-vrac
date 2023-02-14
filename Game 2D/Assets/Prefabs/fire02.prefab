@@ -140,10 +140,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 562070936023503459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45f031fa11410304eb981b99f7ce2419, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dd654b7bf3e5084fb045763a4841274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireDamage: 5
+  fireDamage: 50
 --- !u!1 &6381181785524909337
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +200,7 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
+  m_Mesh: {fileID: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

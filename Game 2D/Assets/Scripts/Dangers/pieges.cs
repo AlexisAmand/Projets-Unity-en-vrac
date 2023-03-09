@@ -21,7 +21,7 @@ public class pieges : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        /* On regarde si l'objet qui entre en contact avec la zone de piegen et on démarre l'anim */
+        /* On regarde si l'objet entre en contact avec la zone de piege et on démarre l'anim */
         if (collision.CompareTag("Player"))
         {
             isInRange = true;

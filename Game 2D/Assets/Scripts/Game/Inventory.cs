@@ -1,12 +1,16 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    /* Ajout d'un singleton pour avoir une seule classe Inventoy dans le jeu */
+    /* Ajout d'un singleton pour avoir une seule classe Inventory dans le jeu */
 
     public int coinsCount;
     public Text coinsCountText;
+
+    public int keysCount;
+    public Text keysCountText;
 
     public static Inventory Instance;
 
@@ -24,7 +28,7 @@ public class Inventory : MonoBehaviour
         Instance = this;
     }
 
-    /* ajout de pieces dans l'inventaire */
+    /* ajout d'une piece dans l'inventaire */
 
     public void AddCoins(int count)
     {
@@ -32,9 +36,28 @@ public class Inventory : MonoBehaviour
         coinsCountText.text = coinsCount.ToString();
     }
 
+    /* suppression d'une clé de l'inventaire */
+
     public void RemoveCoins(int count)
     {
         coinsCount -= count;
         coinsCountText.text = coinsCount.ToString();
     }
+
+    /* ajout d'une clé dans l'inventaire */
+
+    public void AddKeys(int count)
+    {        
+        keysCount += count;
+        keysCountText.text = keysCount.ToString();
+    }
+
+    /* suppression d'une clé de l'inventaire */
+
+    public void RemoveKeys(int count)
+    {
+        keysCount -= count;
+        keysCountText.text = keysCount.ToString();
+    }
+
 }

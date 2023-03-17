@@ -4,6 +4,7 @@ public class CurrentSceneManager : MonoBehaviour
 {
     public bool isPlayerPresentByDefault = false;
     public int coinsPickedUpInThisSceneCount;
+    public int keysPickedUpInThisSceneCount;
 
     public static CurrentSceneManager Instance;
 

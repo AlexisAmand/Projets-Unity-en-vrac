@@ -27,6 +27,12 @@ public class bridge : MonoBehaviour
 
             PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
             playerHealth.TakeDamage(damage);
+
+            /* le nombre de dégat devient 0 */
+            /* ça corrige un bug qui donnait des dégats quand le joueur arrive à l'emplacement du pont */
+
+            damage = 0;
+            
         }
     }
 

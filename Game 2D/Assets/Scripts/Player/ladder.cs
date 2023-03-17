@@ -29,7 +29,7 @@ public class ladder : MonoBehaviour
             return;
         }
 
-        if (isInRange && Input.GetKeyDown(KeyCode.E))
+        if(isInRange && Input.GetKeyDown(KeyCode.E))
         {
             playerMovement.isClimbing = true;
             topCollider.isTrigger = true; 

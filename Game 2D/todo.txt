@@ -1,7 +1,25 @@
-Bugs
-----
+Licences
+--------
 
-- 2 fois le fade dans le level 01 si le perso tombe
-- pas de retour au d�but si le perso tombe dans le level 01
+/assets/Audio/Sound Effects
+https://opengameart.org/content/8bit-sfx
 
+https://legends-games.itch.io/pixel-penguin-32x32-asset-pack
 
+Todo & bugfix
+-------------
+
+- le retry du niveau 2 ne fonctionne pas tout le temps ?
+- niveau 2 : l'échelle qui est au dessus des flammes n'est pas accessible
+
+- supprimer la minimap ?
+idée de soluce : elle reste dans les options, mais par défaut elle est inactive
+
+- refaire les boxcolliders pour tuer les monstres
+
+- niveau 2 : au premier pont en haut, le player prend des dégâts alors que le pont n'est plus là
+idée de soluce : le damage qui passe à 0 après la destruction du pont
+ms le perso continue de clignoter
+
+- quand le perso tombe 'deathzone'
+idée de soluce : afficher un message qui dit "vous êtes tombé"
